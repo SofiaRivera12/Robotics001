@@ -7,5 +7,7 @@ area = math.pi * radio ** 2
 print(f"\nCírculo de radio {radio}:")
 print(f"Perímetro: {perimetro: .2f}")
 print(f"Área: {area: .2f}")
+altura = float(input("Altura del cilindro: "))
+volumen = area * altura
 
-# Ejecutar el script
+print(f"Volumen del cilindro: {volumen: .2f}")
