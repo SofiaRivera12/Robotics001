@@ -13,7 +13,7 @@ import roboticstoolbox as rtb
 #toolbox
 robot = rtb.DHRobot(
     [
-        rtb.RevoluteDH(d=0.0985, a=0, alpha=np.deg2rad(90), offset=0, qlim=[np.deg2rad(-175), np.deg2rad(175)]),
+        rtb.RevoluteDH(d=0.0985, a=0, alpha=np.deg2rad(-90), offset=0, qlim=[np.deg2rad(-175), np.deg2rad(175)]),
         rtb.RevoluteDH(d=0.1405, a=0.408, alpha=np.deg2rad(180), offset=np.deg2rad(-90), qlim=[np.deg2rad(-175), np.deg2rad(175)]),
         rtb.RevoluteDH(d=0.1215, a=0.376, alpha=np.deg2rad(-180), offset=0, qlim=[np.deg2rad(-175), np.deg2rad(175)]),
         rtb.RevoluteDH(d=0.1025, a=0, alpha=np.deg2rad(90), offset=np.deg2rad(90), qlim=[np.deg2rad(-175), np.deg2rad(175)]),
